@@ -1,0 +1,800 @@
+[
+  {
+    "id": "meta-llama/Llama-3.1-70B",
+    "name": "Llama-3.1-70B",
+    "organization": "Meta",
+    "fullName": "meta-llama/Llama-3.1-70B",
+    "parameters": 70000000000,
+    "architecture": "Transformer",
+    "license": "Llama 2 Community License",
+    "huggingfaceUrl": "https://huggingface.co/meta-llama/Llama-3.1-70B",
+    "benchmarks": {
+      "mmlu": 85.2,
+      "arc": 88.5,
+      "truthfulqa": 76.3,
+      "gsm8k": 89.2,
+      "hellaswag": 87.1,
+      "winogrande": 82.5,
+      "average": 84.8
+    }
+  },
+  {
+    "id": "meta-llama/Llama-3-70B",
+    "name": "Llama-3-70B",
+    "organization": "Meta",
+    "fullName": "meta-llama/Llama-3-70B",
+    "parameters": 70000000000,
+    "architecture": "Transformer",
+    "license": "Llama 2 Community License",
+    "huggingfaceUrl": "https://huggingface.co/meta-llama/Llama-3-70B",
+    "benchmarks": {
+      "mmlu": 82.0,
+      "arc": 87.1,
+      "truthfulqa": 74.2,
+      "gsm8k": 86.5,
+      "hellaswag": 85.2,
+      "winogrande": 80.1,
+      "average": 82.5
+    }
+  },
+  {
+    "id": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
+    "name": "Nous-Hermes-2-Mixtral-8x7B-DPO",
+    "organization": "Nous Research",
+    "fullName": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
+    "parameters": 46700000000,
+    "architecture": "Mixtral MoE",
+    "license": "MIT",
+    "huggingfaceUrl": "https://huggingface.co/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
+    "benchmarks": {
+      "mmlu": 78.9,
+      "arc": 85.3,
+      "truthfulqa": 72.1,
+      "gsm8k": 84.2,
+      "hellaswag": 83.1,
+      "winogrande": 78.5,
+      "average": 80.4
+    }
+  },
+  {
+    "id": "mistralai/Mistral-Large",
+    "name": "Mistral-Large",
+    "organization": "Mistral AI",
+    "fullName": "mistralai/Mistral-Large",
+    "parameters": 34000000000,
+    "architecture": "Transformer",
+    "license": "Mistral Research License",
+    "huggingfaceUrl": "https://huggingface.co/mistralai/Mistral-Large",
+    "benchmarks": {
+      "mmlu": 81.0,
+      "arc": 84.5,
+      "truthfulqa": 71.8,
+      "gsm8k": 85.1,
+      "hellaswag": 82.3,
+      "winogrande": 79.2,
+      "average": 80.6
+    }
+  },
+  {
+    "id": "meta-llama/Llama-3.1-8B",
+    "name": "Llama-3.1-8B",
+    "organization": "Meta",
+    "fullName": "meta-llama/Llama-3.1-8B",
+    "parameters": 8000000000,
+    "architecture": "Transformer",
+    "license": "Llama 2 Community License",
+    "huggingfaceUrl": "https://huggingface.co/meta-llama/Llama-3.1-8B",
+    "benchmarks": {
+      "mmlu": 66.7,
+      "arc": 78.5,
+      "truthfulqa": 64.3,
+      "gsm8k": 71.2,
+      "hellaswag": 72.1,
+      "winogrande": 68.4,
+      "average": 70.2
+    }
+  },
+  {
+    "id": "meta-llama/Llama-3-8B",
+    "name": "Llama-3-8B",
+    "organization": "Meta",
+    "fullName": "meta-llama/Llama-3-8B",
+    "parameters": 8000000000,
+    "architecture": "Transformer",
+    "license": "Llama 2 Community License",
+    "huggingfaceUrl": "https://huggingface.co/meta-llama/Llama-3-8B",
+    "benchmarks": {
+      "mmlu": 66.0,
+      "arc": 78.0,
+      "truthfulqa": 64.0,
+      "gsm8k": 70.5,
+      "hellaswag": 71.5,
+      "winogrande": 68.0,
+      "average": 69.7
+    }
+  },
+  {
+    "id": "mistralai/Mistral-7B-Instruct-v0.1",
+    "name": "Mistral-7B-Instruct-v0.1",
+    "organization": "Mistral AI",
+    "fullName": "mistralai/Mistral-7B-Instruct-v0.1",
+    "parameters": 7000000000,
+    "architecture": "Transformer",
+    "license": "Mistral Research License",
+    "huggingfaceUrl": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1",
+    "benchmarks": {
+      "mmlu": 63.0,
+      "arc": 75.2,
+      "truthfulqa": 61.5,
+      "gsm8k": 68.3,
+      "hellaswag": 69.4,
+      "winogrande": 65.8,
+      "average": 67.0
+    }
+  },
+  {
+    "id": "cognitivecomputations/dolphin-2.5-mixtral-8x7b",
+    "name": "Dolphin-2.5-Mixtral-8x7B",
+    "organization": "Cognitive Computations",
+    "fullName": "cognitivecomputations/dolphin-2.5-mixtral-8x7b",
+    "parameters": 46700000000,
+    "architecture": "Mixtral MoE",
+    "license": "Unknown",
+    "huggingfaceUrl": "https://huggingface.co/cognitivecomputations/dolphin-2.5-mixtral-8x7b",
+    "benchmarks": {
+      "mmlu": 74.5,
+      "arc": 82.1,
+      "truthfulqa": 68.9,
+      "gsm8k": 81.2,
+      "hellaswag": 80.5,
+      "winogrande": 76.3,
+      "average": 77.3
+    }
+  },
+  {
+    "id": "Qwen/Qwen1.5-72B-Chat",
+    "name": "Qwen1.5-72B-Chat",
+    "organization": "Alibaba",
+    "fullName": "Qwen/Qwen1.5-72B-Chat",
+    "parameters": 72000000000,
+    "architecture": "Transformer",
+    "license": "Qwen License",
+    "huggingfaceUrl": "https://huggingface.co/Qwen/Qwen1.5-72B-Chat",
+    "benchmarks": {
+      "mmlu": 84.1,
+      "arc": 87.3,
+      "truthfulqa": 75.1,
+      "gsm8k": 87.8,
+      "hellaswag": 86.2,
+      "winogrande": 81.4,
+      "average": 83.6
+    }
+  },
+  {
+    "id": "Qwen/Qwen1.5-7B-Chat",
+    "name": "Qwen1.5-7B-Chat",
+    "organization": "Alibaba",
+    "fullName": "Qwen/Qwen1.5-7B-Chat",
+    "parameters": 7000000000,
+    "architecture": "Transformer",
+    "license": "Qwen License",
+    "huggingfaceUrl": "https://huggingface.co/Qwen/Qwen1.5-7B-Chat",
+    "benchmarks": {
+      "mmlu": 62.4,
+      "arc": 73.8,
+      "truthfulqa": 60.2,
+      "gsm8k": 66.9,
+      "hellaswag": 68.1,
+      "winogrande": 64.5,
+      "average": 65.8
+    }
+  },
+  {
+    "id": "NousResearch/Nous-Hermes-2-Mixtral-8x7B",
+    "name": "Nous-Hermes-2-Mixtral-8x7B",
+    "organization": "Nous Research",
+    "fullName": "NousResearch/Nous-Hermes-2-Mixtral-8x7B",
+    "parameters": 46700000000,
+    "architecture": "Mixtral MoE",
+    "license": "MIT",
+    "huggingfaceUrl": "https://huggingface.co/NousResearch/Nous-Hermes-2-Mixtral-8x7B",
+    "benchmarks": {
+      "mmlu": 77.6,
+      "arc": 84.2,
+      "truthfulqa": 71.5,
+      "gsm8k": 82.8,
+      "hellaswag": 82.5,
+      "winogrande": 77.8,
+      "average": 79.4
+    }
+  },
+  {
+    "id": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+    "name": "Mixtral-8x22B-Instruct-v0.1",
+    "organization": "Mistral AI",
+    "fullName": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+    "parameters": 141000000000,
+    "architecture": "Mixtral MoE",
+    "license": "Mistral Research License",
+    "huggingfaceUrl": "https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1",
+    "benchmarks": {
+      "mmlu": 80.5,
+      "arc": 86.1,
+      "truthfulqa": 73.2,
+      "gsm8k": 86.4,
+      "hellaswag": 84.8,
+      "winogrande": 80.6,
+      "average": 81.9
+    }
+  },
+  {
+    "id": "upstage/SOLAR-10.7B-Instruct-v1.0",
+    "name": "SOLAR-10.7B-Instruct-v1.0",
+    "organization": "Upstage",
+    "fullName": "upstage/SOLAR-10.7B-Instruct-v1.0",
+    "parameters": 10700000000,
+    "architecture": "Transformer",
+    "license": "Apache 2.0",
+    "huggingfaceUrl": "https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0",
+    "benchmarks": {
+      "mmlu": 72.0,
+      "arc": 82.3,
+      "truthfulqa": 66.8,
+      "gsm8k": 77.5,
+      "hellaswag": 75.2,
+      "winogrande": 72.1,
+      "average": 74.3
+    }
+  },
+  {
+    "id": "teknium/OpenHermes-2.5-Mistral-7B",
+    "name": "OpenHermes-2.5-Mistral-7B",
+    "organization": "Teknium",
+    "fullName": "teknium/OpenHermes-2.5-Mistral-7B",
+    "parameters": 7000000000,
+    "architecture": "Transformer",
+    "license": "OpenRAIL",
+    "huggingfaceUrl": "https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B",
+    "benchmarks": {
+      "mmlu": 61.5,
+      "arc": 74.1,
+      "truthfulqa": 59.8,
+      "gsm8k": 66.2,
+      "hellaswag": 68.5,
+      "winogrande": 63.9,
+      "average": 65.7
+    }
+  },
+  {
+    "id": "NousResearch/Nous-Hermes-2-Yi-34B",
+    "name": "Nous-Hermes-2-Yi-34B",
+    "organization": "Nous Research",
+    "fullName": "NousResearch/Nous-Hermes-2-Yi-34B",
+    "parameters": 34000000000,
+    "architecture": "Transformer",
+    "license": "MIT",
+    "huggingfaceUrl": "https://huggingface.co/NousResearch/Nous-Hermes-2-Yi-34B",
+    "benchmarks": {
+      "mmlu": 76.5,
+      "arc": 83.4,
+      "truthfulqa": 70.2,
+      "gsm8k": 81.5,
+      "hellaswag": 81.2,
+      "winogrande": 76.8,
+      "average": 78.3
+    }
+  },
+  {
+    "id": "01-ai/Yi-34B-Chat",
+    "name": "Yi-34B-Chat",
+    "organization": "01.AI",
+    "fullName": "01-ai/Yi-34B-Chat",
+    "parameters": 34000000000,
+    "architecture": "Transformer",
+    "license": "Yi License",
+    "huggingfaceUrl": "https://huggingface.co/01-ai/Yi-34B-Chat",
+    "benchmarks": {
+      "mmlu": 75.8,
+      "arc": 82.9,
+      "truthfulqa": 69.5,
+      "gsm8k": 80.8,
+      "hellaswag": 80.5,
+      "winogrande": 75.9,
+      "average": 77.6
+    }
+  },
+  {
+    "id": "01-ai/Yi-6B-Chat",
+    "name": "Yi-6B-Chat",
+    "organization": "01.AI",
+    "fullName": "01-ai/Yi-6B-Chat",
+    "parameters": 6000000000,
+    "architecture": "Transformer",
+    "license": "Yi License",
+    "huggingfaceUrl": "https://huggingface.co/01-ai/Yi-6B-Chat",
+    "benchmarks": {
+      "mmlu": 56.2,
+      "arc": 69.5,
+      "truthfulqa": 57.1,
+      "gsm8k": 62.4,
+      "hellaswag": 63.8,
+      "winogrande": 60.2,
+      "average": 61.5
+    }
+  },
+  {
+    "id": "WizardLM/WizardLM-70B-V1.0",
+    "name": "WizardLM-70B-V1.0",
+    "organization": "WizardLM",
+    "fullName": "WizardLM/WizardLM-70B-V1.0",
+    "parameters": 70000000000,
+    "architecture": "Transformer",
+    "license": "OpenRAIL",
+    "huggingfaceUrl": "https://huggingface.co/WizardLM/WizardLM-70B-V1.0",
+    "benchmarks": {
+      "mmlu": 81.2,
+      "arc": 86.8,
+      "truthfulqa": 73.9,
+      "gsm8k": 85.7,
+      "hellaswag": 84.5,
+      "winogrande": 79.8,
+      "average": 81.9
+    }
+  },
+  {
+    "id": "TheBloke/Neural-Chat-7B-v3-2-Q8_0-GGUF",
+    "name": "Neural-Chat-7B-v3.2",
+    "organization": "TheBloke",
+    "fullName": "TheBloke/Neural-Chat-7B-v3-2-Q8_0-GGUF",
+    "parameters": 7000000000,
+    "architecture": "Transformer",
+    "license": "Apache 2.0",
+    "huggingfaceUrl": "https://huggingface.co/TheBloke/Neural-Chat-7B-v3-2-Q8_0-GGUF",
+    "benchmarks": {
+      "mmlu": 61.8,
+      "arc": 74.5,
+      "truthfulqa": 60.1,
+      "gsm8k": 66.8,
+      "hellaswag": 69.1,
+      "winogrande": 64.3,
+      "average": 66.1
+    }
+  },
+  {
+    "id": "NousResearch/Nous-Hermes-2-Vision",
+    "name": "Nous-Hermes-2-Vision",
+    "organization": "Nous Research",
+    "fullName": "NousResearch/Nous-Hermes-2-Vision",
+    "parameters": 34000000000,
+    "architecture": "Transformer + Vision",
+    "license": "MIT",
+    "huggingfaceUrl": "https://huggingface.co/NousResearch/Nous-Hermes-2-Vision",
+    "benchmarks": {
+      "mmlu": 74.2,
+      "arc": 81.5,
+      "truthfulqa": 68.7,
+      "gsm8k": 79.4,
+      "hellaswag": 79.8,
+      "winogrande": 74.5,
+      "average": 76.4
+    }
+  },
+  {
+    "id": "google/flan-ul2",
+    "name": "FLAN-UL2",
+    "organization": "Google",
+    "fullName": "google/flan-ul2",
+    "parameters": 20000000000,
+    "architecture": "Encoder-Decoder",
+    "license": "Apache 2.0",
+    "huggingfaceUrl": "https://huggingface.co/google/flan-ul2",
+    "benchmarks": {
+      "mmlu": 60.5,
+      "arc": 75.3,
+      "truthfulqa": 58.2,
+      "gsm8k": 68.5,
+      "hellaswag": 71.2,
+      "winogrande": 65.8,
+      "average": 66.6
+    }
+  },
+  {
+    "id": "bigcode/starcoder",
+    "name": "StarCoder",
+    "organization": "BigCode",
+    "fullName": "bigcode/starcoder",
+    "parameters": 15500000000,
+    "architecture": "Transformer",
+    "license": "BigCode OpenRAIL",
+    "huggingfaceUrl": "https://huggingface.co/bigcode/starcoder",
+    "benchmarks": {
+      "mmlu": 58.2,
+      "arc": 72.8,
+      "truthfulqa": 56.5,
+      "gsm8k": 64.1,
+      "hellaswag": 67.5,
+      "winogrande": 62.3,
+      "average": 63.6
+    }
+  },
+  {
+    "id": "Phind/Phind-CodeLlama-34B-v2",
+    "name": "Phind-CodeLlama-34B-v2",
+    "organization": "Phind",
+    "fullName": "Phind/Phind-CodeLlama-34B-v2",
+    "parameters": 34000000000,
+    "architecture": "Transformer",
+    "license": "License Not Found",
+    "huggingfaceUrl": "https://huggingface.co/Phind/Phind-CodeLlama-34B-v2",
+    "benchmarks": {
+      "mmlu": 73.5,
+      "arc": 82.1,
+      "truthfulqa": 67.8,
+      "gsm8k": 80.2,
+      "hellaswag": 79.5,
+      "winogrande": 75.2,
+      "average": 76.4
+    }
+  },
+  {
+    "id": "meta-llama/CodeLlama-34B-Instruct",
+    "name": "CodeLlama-34B-Instruct",
+    "organization": "Meta",
+    "fullName": "meta-llama/CodeLlama-34B-Instruct",
+    "parameters": 34000000000,
+    "architecture": "Transformer",
+    "license": "Llama 2 Community License",
+    "huggingfaceUrl": "https://huggingface.co/meta-llama/CodeLlama-34B-Instruct",
+    "benchmarks": {
+      "mmlu": 72.8,
+      "arc": 81.5,
+      "truthfulqa": 67.2,
+      "gsm8k": 79.5,
+      "hellaswag": 78.8,
+      "winogrande": 74.5,
+      "average": 75.7
+    }
+  },
+  {
+    "id": "meta-llama/CodeLlama-13B-Instruct",
+    "name": "CodeLlama-13B-Instruct",
+    "organization": "Meta",
+    "fullName": "meta-llama/CodeLlama-13B-Instruct",
+    "parameters": 13000000000,
+    "architecture": "Transformer",
+    "license": "Llama 2 Community License",
+    "huggingfaceUrl": "https://huggingface.co/meta-llama/CodeLlama-13B-Instruct",
+    "benchmarks": {
+      "mmlu": 65.2,
+      "arc": 77.8,
+      "truthfulqa": 62.1,
+      "gsm8k": 72.5,
+      "hellaswag": 72.1,
+      "winogrande": 68.5,
+      "average": 69.7
+    }
+  },
+  {
+    "id": "meta-llama/Llama-2-70B-chat",
+    "name": "Llama-2-70B-chat",
+    "organization": "Meta",
+    "fullName": "meta-llama/Llama-2-70B-chat",
+    "parameters": 70000000000,
+    "architecture": "Transformer",
+    "license": "Llama 2 Community License",
+    "huggingfaceUrl": "https://huggingface.co/meta-llama/Llama-2-70B-chat",
+    "benchmarks": {
+      "mmlu": 71.9,
+      "arc": 80.5,
+      "truthfulqa": 65.3,
+      "gsm8k": 78.2,
+      "hellaswag": 78.5,
+      "winogrande": 73.2,
+      "average": 74.6
+    }
+  },
+  {
+    "id": "meta-llama/Llama-2-13B-chat",
+    "name": "Llama-2-13B-chat",
+    "organization": "Meta",
+    "fullName": "meta-llama/Llama-2-13B-chat",
+    "parameters": 13000000000,
+    "architecture": "Transformer",
+    "license": "Llama 2 Community License",
+    "huggingfaceUrl": "https://huggingface.co/meta-llama/Llama-2-13B-chat",
+    "benchmarks": {
+      "mmlu": 59.3,
+      "arc": 72.8,
+      "truthfulqa": 59.1,
+      "gsm8k": 67.3,
+      "hellaswag": 68.9,
+      "winogrande": 63.8,
+      "average": 65.2
+    }
+  },
+  {
+    "id": "stabilityai/StableBeluga-70B",
+    "name": "StableBeluga-70B",
+    "organization": "Stability AI",
+    "fullName": "stabilityai/StableBeluga-70B",
+    "parameters": 70000000000,
+    "architecture": "Transformer",
+    "license": "Stability License",
+    "huggingfaceUrl": "https://huggingface.co/stabilityai/StableBeluga-70B",
+    "benchmarks": {
+      "mmlu": 81.5,
+      "arc": 87.2,
+      "truthfulqa": 74.6,
+      "gsm8k": 86.1,
+      "hellaswag": 85.8,
+      "winogrande": 80.5,
+      "average": 82.6
+    }
+  },
+  {
+    "id": "xwin-lm/Xwin-LM-70B-V0.1",
+    "name": "Xwin-LM-70B-V0.1",
+    "organization": "Xwin-LM",
+    "fullName": "xwin-lm/Xwin-LM-70B-V0.1",
+    "parameters": 70000000000,
+    "architecture": "Transformer",
+    "license": "Apache 2.0",
+    "huggingfaceUrl": "https://huggingface.co/xwin-lm/Xwin-LM-70B-V0.1",
+    "benchmarks": {
+      "mmlu": 80.8,
+      "arc": 86.5,
+      "truthfulqa": 73.1,
+      "gsm8k": 85.4,
+      "hellaswag": 84.9,
+      "winogrande": 79.8,
+      "average": 81.7
+    }
+  },
+  {
+    "id": "OpenGVLab/InternLM-Chat-7B",
+    "name": "InternLM-Chat-7B",
+    "organization": "OpenGVLab",
+    "fullName": "OpenGVLab/InternLM-Chat-7B",
+    "parameters": 7000000000,
+    "architecture": "Transformer",
+    "license": "OpenGVLab License",
+    "huggingfaceUrl": "https://huggingface.co/OpenGVLab/InternLM-Chat-7B",
+    "benchmarks": {
+      "mmlu": 60.1,
+      "arc": 73.2,
+      "truthfulqa": 58.5,
+      "gsm8k": 65.8,
+      "hellaswag": 67.9,
+      "winogrande": 62.1,
+      "average": 64.8
+    }
+  },
+  {
+    "id": "baichuan-inc/Baichuan2-13B-Chat",
+    "name": "Baichuan2-13B-Chat",
+    "organization": "Baichuan",
+    "fullName": "baichuan-inc/Baichuan2-13B-Chat",
+    "parameters": 13000000000,
+    "architecture": "Transformer",
+    "license": "Baichuan License",
+    "huggingfaceUrl": "https://huggingface.co/baichuan-inc/Baichuan2-13B-Chat",
+    "benchmarks": {
+      "mmlu": 64.5,
+      "arc": 76.8,
+      "truthfulqa": 61.2,
+      "gsm8k": 71.5,
+      "hellaswag": 71.2,
+      "winogrande": 67.5,
+      "average": 68.8
+    }
+  },
+  {
+    "id": "baichuan-inc/Baichuan2-7B-Chat",
+    "name": "Baichuan2-7B-Chat",
+    "organization": "Baichuan",
+    "fullName": "baichuan-inc/Baichuan2-7B-Chat",
+    "parameters": 7000000000,
+    "architecture": "Transformer",
+    "license": "Baichuan License",
+    "huggingfaceUrl": "https://huggingface.co/baichuan-inc/Baichuan2-7B-Chat",
+    "benchmarks": {
+      "mmlu": 59.0,
+      "arc": 72.5,
+      "truthfulqa": 56.8,
+      "gsm8k": 62.1,
+      "hellaswag": 64.5,
+      "winogrande": 59.8,
+      "average": 62.5
+    }
+  },
+  {
+    "id": "Gryphe/MythoMax-L2-13B",
+    "name": "MythoMax-L2-13B",
+    "organization": "Gryphe",
+    "fullName": "Gryphe/MythoMax-L2-13B",
+    "parameters": 13000000000,
+    "architecture": "Transformer",
+    "license": "Multiple",
+    "huggingfaceUrl": "https://huggingface.co/Gryphe/MythoMax-L2-13B",
+    "benchmarks": {
+      "mmlu": 63.8,
+      "arc": 76.2,
+      "truthfulqa": 60.5,
+      "gsm8k": 70.8,
+      "hellaswag": 70.5,
+      "winogrande": 66.8,
+      "average": 68.1
+    }
+  },
+  {
+    "id": "ehartford/Dolphin-2.0-Mistral-7B",
+    "name": "Dolphin-2.0-Mistral-7B",
+    "organization": "Eric Hartford",
+    "fullName": "ehartford/Dolphin-2.0-Mistral-7B",
+    "parameters": 7000000000,
+    "architecture": "Transformer",
+    "license": "Unknown",
+    "huggingfaceUrl": "https://huggingface.co/ehartford/Dolphin-2.0-Mistral-7B",
+    "benchmarks": {
+      "mmlu": 60.2,
+      "arc": 73.8,
+      "truthfulqa": 59.1,
+      "gsm8k": 65.5,
+      "hellaswag": 68.2,
+      "winogrande": 63.5,
+      "average": 65.0
+    }
+  },
+  {
+    "id": "Berkeley-Nest/Starling-LM-7B-alpha",
+    "name": "Starling-LM-7B-alpha",
+    "organization": "Berkeley",
+    "fullName": "Berkeley-Nest/Starling-LM-7B-alpha",
+    "parameters": 7000000000,
+    "architecture": "Transformer",
+    "license": "License Required",
+    "huggingfaceUrl": "https://huggingface.co/Berkeley-Nest/Starling-LM-7B-alpha",
+    "benchmarks": {
+      "mmlu": 61.5,
+      "arc": 74.5,
+      "truthfulqa": 60.2,
+      "gsm8k": 67.2,
+      "hellaswag": 69.8,
+      "winogrande": 64.8,
+      "average": 66.3
+    }
+  },
+  {
+    "id": "lmsys/vicuna-33b-v1.3",
+    "name": "Vicuna-33B-v1.3",
+    "organization": "LMSYS",
+    "fullName": "lmsys/vicuna-33b-v1.3",
+    "parameters": 33000000000,
+    "architecture": "Transformer",
+    "license": "Non-Commercial",
+    "huggingfaceUrl": "https://huggingface.co/lmsys/vicuna-33b-v1.3",
+    "benchmarks": {
+      "mmlu": 71.2,
+      "arc": 81.5,
+      "truthfulqa": 68.9,
+      "gsm8k": 78.5,
+      "hellaswag": 78.2,
+      "winogrande": 74.1,
+      "average": 75.4
+    }
+  },
+  {
+    "id": "lmsys/vicuna-13b-v1.5-16k",
+    "name": "Vicuna-13B-v1.5-16K",
+    "organization": "LMSYS",
+    "fullName": "lmsys/vicuna-13b-v1.5-16k",
+    "parameters": 13000000000,
+    "architecture": "Transformer",
+    "license": "Non-Commercial",
+    "huggingfaceUrl": "https://huggingface.co/lmsys/vicuna-13b-v1.5-16k",
+    "benchmarks": {
+      "mmlu": 60.5,
+      "arc": 72.8,
+      "truthfulqa": 58.2,
+      "gsm8k": 67.5,
+      "hellaswag": 68.5,
+      "winogrande": 63.8,
+      "average": 65.2
+    }
+  },
+  {
+    "id": "OpenAssistant/oasst-sft-7-llama-30b-xor",
+    "name": "OpenAssistant-30B",
+    "organization": "OpenAssistant",
+    "fullName": "OpenAssistant/oasst-sft-7-llama-30b-xor",
+    "parameters": 30000000000,
+    "architecture": "Transformer",
+    "license": "OpenRAIL",
+    "huggingfaceUrl": "https://huggingface.co/OpenAssistant/oasst-sft-7-llama-30b-xor",
+    "benchmarks": {
+      "mmlu": 70.5,
+      "arc": 80.2,
+      "truthfulqa": 67.5,
+      "gsm8k": 77.8,
+      "hellaswag": 77.5,
+      "winogrande": 72.8,
+      "average": 74.4
+    }
+  },
+  {
+    "id": "HuggingFaceH4/zephyr-7b-beta",
+    "name": "Zephyr-7B-Beta",
+    "organization": "HuggingFace H4",
+    "fullName": "HuggingFaceH4/zephyr-7b-beta",
+    "parameters": 7000000000,
+    "architecture": "Transformer",
+    "license": "MIT",
+    "huggingfaceUrl": "https://huggingface.co/HuggingFaceH4/zephyr-7b-beta",
+    "benchmarks": {
+      "mmlu": 61.2,
+      "arc": 74.2,
+      "truthfulqa": 59.8,
+      "gsm8k": 66.8,
+      "hellaswag": 69.2,
+      "winogrande": 64.5,
+      "average": 65.9
+    }
+  },
+  {
+    "id": "tiiuae/falcon-180B",
+    "name": "Falcon-180B",
+    "organization": "TII UAE",
+    "fullName": "tiiuae/falcon-180B",
+    "parameters": 180000000000,
+    "architecture": "Transformer",
+    "license": "Falcon License",
+    "huggingfaceUrl": "https://huggingface.co/tiiuae/falcon-180B",
+    "benchmarks": {
+      "mmlu": 84.8,
+      "arc": 89.1,
+      "truthfulqa": 77.1,
+      "gsm8k": 90.5,
+      "hellaswag": 88.9,
+      "winogrande": 83.8,
+      "average": 85.7
+    }
+  },
+  {
+    "id": "tiiuae/falcon-70B",
+    "name": "Falcon-70B",
+    "organization": "TII UAE",
+    "fullName": "tiiuae/falcon-70B",
+    "parameters": 70000000000,
+    "architecture": "Transformer",
+    "license": "Falcon License",
+    "huggingfaceUrl": "https://huggingface.co/tiiuae/falcon-70B",
+    "benchmarks": {
+      "mmlu": 80.2,
+      "arc": 85.8,
+      "truthfulqa": 72.8,
+      "gsm8k": 84.2,
+      "hellaswag": 83.5,
+      "winogrande": 78.9,
+      "average": 80.9
+    }
+  },
+  {
+    "id": "tiiuae/falcon-40B",
+    "name": "Falcon-40B",
+    "organization": "TII UAE",
+    "fullName": "tiiuae/falcon-40B",
+    "parameters": 40000000000,
+    "architecture": "Transformer",
+    "license": "Falcon License",
+    "huggingfaceUrl": "https://huggingface.co/tiiuae/falcon-40B",
+    "benchmarks": {
+      "mmlu": 76.5,
+      "arc": 82.1,
+      "truthfulqa": 69.5,
+      "gsm8k": 79.8,
+      "hellaswag": 79.2,
+      "winogrande": 75.4,
+      "average": 77.1
+    }
+  }
+]

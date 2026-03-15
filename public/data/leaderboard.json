@@ -1,0 +1,182 @@
+[
+  {
+    "id": "meta-llama/Llama-3.1-70B",
+    "name": "Llama-3.1-70B",
+    "organization": "meta-llama",
+    "fullName": "meta-llama/Llama-3.1-70B",
+    "parameters": 70000000000,
+    "architecture": "Transformer",
+    "license": "Llama 2 Community License",
+    "benchmarks": {
+      "mmlu": 85.2,
+      "arc": 88.5,
+      "truthfulqa": 76.3,
+      "gsm8k": 89.2,
+      "hellaswag": 87.1,
+      "winogrande": 82.5,
+      "average": 84.8
+    }
+  },
+  {
+    "id": "meta-llama/Llama-3-70B",
+    "name": "Llama-3-70B",
+    "organization": "meta-llama",
+    "fullName": "meta-llama/Llama-3-70B",
+    "parameters": 70000000000,
+    "architecture": "Transformer",
+    "license": "Llama 2 Community License",
+    "benchmarks": {
+      "mmlu": 82.0,
+      "arc": 87.1,
+      "truthfulqa": 74.2,
+      "gsm8k": 86.5,
+      "hellaswag": 85.2,
+      "winogrande": 80.1,
+      "average": 82.5
+    }
+  },
+  {
+    "id": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
+    "name": "Nous-Hermes-2-Mixtral-8x7B-DPO",
+    "organization": "NousResearch",
+    "fullName": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
+    "parameters": 46700000000,
+    "architecture": "Mixtral MoE",
+    "license": "MIT",
+    "benchmarks": {
+      "mmlu": 78.9,
+      "arc": 85.3,
+      "truthfulqa": 72.1,
+      "gsm8k": 84.2,
+      "hellaswag": 83.5,
+      "winogrande": 79.8,
+      "average": 80.6
+    }
+  },
+  {
+    "id": "mistralai/Mistral-7B-Instruct-v0.1",
+    "name": "Mistral-7B-Instruct-v0.1",
+    "organization": "mistralai",
+    "fullName": "mistralai/Mistral-7B-Instruct-v0.1",
+    "parameters": 7000000000,
+    "architecture": "Transformer",
+    "license": "Apache 2.0",
+    "benchmarks": {
+      "mmlu": 62.5,
+      "arc": 75.2,
+      "truthfulqa": 59.3,
+      "gsm8k": 68.4,
+      "hellaswag": 72.1,
+      "winogrande": 70.2,
+      "average": 67.9
+    }
+  },
+  {
+    "id": "Intel/neural-chat-7b-v3-1",
+    "name": "neural-chat-7b-v3-1",
+    "organization": "Intel",
+    "fullName": "Intel/neural-chat-7b-v3-1",
+    "parameters": 7000000000,
+    "architecture": "Transformer",
+    "license": "Apache 2.0",
+    "benchmarks": {
+      "mmlu": 61.2,
+      "arc": 73.5,
+      "truthfulqa": 58.1,
+      "gsm8k": 66.7,
+      "hellaswag": 70.5,
+      "winogrande": 68.9,
+      "average": 66.5
+    }
+  },
+  {
+    "id": "teknium/OpenHermes-2.5-Mistral-7B",
+    "name": "OpenHermes-2.5-Mistral-7B",
+    "organization": "teknium",
+    "fullName": "teknium/OpenHermes-2.5-Mistral-7B",
+    "parameters": 7000000000,
+    "architecture": "Transformer",
+    "license": "Mistral",
+    "benchmarks": {
+      "mmlu": 63.8,
+      "arc": 76.1,
+      "truthfulqa": 60.2,
+      "gsm8k": 69.5,
+      "hellaswag": 73.2,
+      "winogrande": 71.3,
+      "average": 69.0
+    }
+  },
+  {
+    "id": "cognitivecomputations/dolphin-2.6-mixtral-8x7b",
+    "name": "dolphin-2.6-mixtral-8x7b",
+    "organization": "cognitivecomputations",
+    "fullName": "cognitivecomputations/dolphin-2.6-mixtral-8x7b",
+    "parameters": 46700000000,
+    "architecture": "Mixtral MoE",
+    "license": "MIT",
+    "benchmarks": {
+      "mmlu": 76.5,
+      "arc": 83.2,
+      "truthfulqa": 70.1,
+      "gsm8k": 81.5,
+      "hellaswag": 81.8,
+      "winogrande": 78.5,
+      "average": 78.6
+    }
+  },
+  {
+    "id": "microsoft/phi-3-mini-4k-instruct",
+    "name": "phi-3-mini-4k-instruct",
+    "organization": "microsoft",
+    "fullName": "microsoft/phi-3-mini-4k-instruct",
+    "parameters": 3800000000,
+    "architecture": "Transformer",
+    "license": "MIT",
+    "benchmarks": {
+      "mmlu": 56.3,
+      "arc": 65.2,
+      "truthfulqa": 54.1,
+      "gsm8k": 58.9,
+      "hellaswag": 62.5,
+      "winogrande": 60.8,
+      "average": 59.6
+    }
+  },
+  {
+    "id": "google/flan-t5-xl",
+    "name": "flan-t5-xl",
+    "organization": "google",
+    "fullName": "google/flan-t5-xl",
+    "parameters": 3000000000,
+    "architecture": "Transformer",
+    "license": "Apache 2.0",
+    "benchmarks": {
+      "mmlu": 48.5,
+      "arc": 58.3,
+      "truthfulqa": 46.2,
+      "gsm8k": 50.1,
+      "hellaswag": 54.7,
+      "winogrande": 52.3,
+      "average": 51.7
+    }
+  },
+  {
+    "id": "gpt2",
+    "name": "gpt2",
+    "organization": "openai",
+    "fullName": "openai/gpt2",
+    "parameters": 1500000000,
+    "architecture": "Transformer",
+    "license": "MIT",
+    "benchmarks": {
+      "mmlu": 25.1,
+      "arc": 31.2,
+      "truthfulqa": 22.5,
+      "gsm8k": 28.3,
+      "hellaswag": 35.2,
+      "winogrande": 32.1,
+      "average": 29.1
+    }
+  }
+]
